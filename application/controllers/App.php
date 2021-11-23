@@ -53,6 +53,14 @@ public function calculadora1(){
 
 	$this->load->view('calculadora',$this->datos);}
 
+	public function porqueinvertir(){
+		if(!$this->session->userdata("uid")){
+			redirect("auth");
+		}
+		$this->datos["usuario_logueado"]=$this->session->userdata("usuario");
+	
+		$this->load->view('porqueinvertir',$this->datos);
+	}
 
 public function inversiones($inv_id=""){
 

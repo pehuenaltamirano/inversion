@@ -23,6 +23,8 @@
           <div class="dropdown-divider"></div>
           <a class="dropdown-item" href="<?php echo site_url("App/calculadora1"); ?>">Calculadora</a>
           <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="<?php echo site_url("App/porqueinvertir"); ?>">¿Por qué Invertir?</a>
+          <div class="dropdown-divider"></div>
           <a class="dropdown-item" href="<?php echo site_url("auth/cambiarpass"); ?>">Cambiar Contraseña</a>
           <div class="dropdown-divider"></div>
           <a class="dropdown-item "  href="<?php echo site_url("auth/salir"); ?>">Salir Cuenta</a>
