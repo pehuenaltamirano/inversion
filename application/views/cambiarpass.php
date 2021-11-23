@@ -9,7 +9,12 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
     <title>Cambiar Contraseña</title>
-  
+  <style>
+body{
+    background: url(<?php echo base_url("assets/img/fondo2.jpg");?>) no-repeat center center fixed;
+    background-size: cover;
+    }
+</style>
   </head>
       <?php $this->load->view("barra");?>
       </header>

@@ -16,7 +16,7 @@
     <title>Usuario Nuevo</title>
     <style>
     body{
-    background: url(https://www.bankmagazine.com.ar/wp-content/uploads/2018/09/inversiones5.jpg) no-repeat center center fixed;
+    background: url(<?php echo base_url("assets/img/fondo.jpg");?>) no-repeat center center fixed;
     background-size: cover;
 }
 
