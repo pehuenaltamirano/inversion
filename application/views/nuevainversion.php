@@ -8,20 +8,20 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
-    <title>Inversiones Leon | Nueva Inversion </title>
-    <link rel="icon" href="<?=base_url()?>/favicon.ico" type="image/gif">
+    <title>Nueva Inversion </title>
+    
   </head>
   <header>
       <?php $this->load->view("barra");?>
     </header>
-<body class="bg-secondary text-light">
+<body class="bg-light text-dark">
     <div class="container">
       <div class="row offset-md-3">
         <div class="col-md-8">
           <br>
           <center>
           
-          <h1 >  NUEVA INVERSION </h1></center>
+          <h1 >  Ingrese nueva inversion</h1></center>
           <br>
               <form method="post">
                 <div class="form-group">
@@ -29,10 +29,10 @@
                   <input type="text" class="form-control text-dark text-center " placeholder="CONCEPTO" name="concepto">
                 </div>
                 <div class="form-group">
-                  <input type="number" placeholder="MONTO INICIAL" class="form-control text-center text-dark " min="1" step="any" name="monto" >
+                  <input type="number" placeholder="INVERSION INICIAL" class="form-control text-center text-dark " min="1" step="any" name="monto" >
                 </div>
                 <center>
-                <button type="submit" class="btn btn-dark">CREAR INVERSION</button>
+                <button type="submit" class="btn btn-dark">Ingresar nueva inversion</button>
                 </center>
               </form>
 

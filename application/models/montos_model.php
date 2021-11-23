@@ -1,6 +1,6 @@
 
 <?php
-class montos_model extends CI_Model{
+class Montos_model extends CI_Model{
     function listar(){
         $this->db->order_by("monto_id","desc");
         return $this->db->get("montos")->result_array();

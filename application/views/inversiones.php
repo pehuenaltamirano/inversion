@@ -68,7 +68,7 @@
                                             <center>
                                             <td class="text-dark"><?php echo $m["fecha"];?> </td></center>
                                             <td class="text-dark">$<?php echo $m["monto"];?></td>
-                                            <td class=" text-light">
+                                            <td class=" text-dark">
                                             <?php if($m["diferencia"]){?>
                                                 <?php echo $m["diferencia"];?>
                                                 <?php if($m["diferencia"]<=0){?>

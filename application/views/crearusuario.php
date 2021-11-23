@@ -126,13 +126,13 @@ h2{
                         <input for="usuario" type="text" class="form-control" placeholder="Nombre de usuario" name="nombre"/>
                     </div>
                     <div class="form-group" id="contrasena-group">
-                        <input for ="password" type="password" class="form-control" placeholder="Contrasena" name="password"/>
+                        <input for="password" type="password" class="form-control" placeholder="Contrasena" name="password"/>
                     </div>
                     <div class="form-group" id="contrasena-group">
-                        <input for ="password" type="password" class="form-control" placeholder="Repetir Contrasena" name="confirmacion"/>
+                        <input for="confirmacion" type="password" class="form-control" placeholder="Repetir Contrasena" name="confirmacion"/>
                     </div>
                     <div class="form-group" id="user-group">
-                        <input for ="password" type="password" class="form-control" placeholder="Email" name="emaild"/>
+                        <input for="email"  type="email" class="form-control" placeholder="Email" name="email"/>
                     </div>
                     
                     <button type="submit" class="btn btn-primary" name="ingresar"> <i class="fas fa-sign-in-alt"></i>  Crear Usuario </button>

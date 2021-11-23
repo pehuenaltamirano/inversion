@@ -9,19 +9,20 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.0/font/bootstrap-icons.css">
     <title>Home</title>
+
   </head>
   <header>
   <?php $this->load->view("barra");?>
   </header>
   <body>
 	<div class="container">
-
       <br>
-
+              <center><h1 >  Cotizaciones Criptomonedas </h1></center>
+    <br>
       <iframe src="https://criptolatino.com/cryptowidgets/tab/?theme=midnight" style="border:none;width:100%;height:400px;" frameBorder="0" scrolling="no sandbox="allow-same-origin" onload="this.style.height=(this.contentWindow.document.body.scrollHeight)+'px';""></iframe>
 <br>
 <br>
-<iframe src="https://criptolatino.com/cryptowidgets/card/?theme=midnight" style="border:none;width:100%;height:400px;" frameBorder="0" scrolling="no sandbox="allow-same-origin" onload="this.style.height=(this.contentWindow.document.body.scrollHeight)+'px';""></iframe>
+
 
 
     <!-- Optional JavaScript; choose one of the two! -->

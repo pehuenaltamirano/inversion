@@ -13,17 +13,19 @@
   </head>
       <?php $this->load->view("barra");?>
       </header>
-      <body>
+      <body class="bg-light text-dark">
    
     <div class="container">
 
        <div class="row-md-3">
        <div class="col-md-12 offset-md-4">
-      
-    
+      <br>
+              
+          
+          <h1 >  Cambiar Contraseña</h1>
   
           <img id="cambiarpass" src="<?php // echo base_url("assets/img/cambiarpass.png"); ?>"  alt="">
-         
+         <br>
           </div>
        </div>
       <div class="row">
@@ -35,17 +37,17 @@
   <form method="post">
             <div class="form-group">  <center>
               
-              <input type="password" class="form-control " name="password" placeholder="Ingrese contraseña nueva" >
+              <input type="password" class="form-control " name="password" placeholder="Ingrese contraseña nueva" text-light>
             </div>
             <div class="form-group">
             <center>
-              <input type="password" class="form-control " name="confirmacion" placeholder="Repetir contraseña">
+              <input type="password" class="form-control " name="confirmacion" placeholder="Repetir contraseña" text-light>
             </div>
             <center>
             <?php echo validation_errors(); ?>
 
           
-            <button type="submit" class="btn btn-primary">Confirmar</button>  </center>
+            <button type="submit" class="btn btn-dark">Confirmar</button>  </center>
           </form>
 
 

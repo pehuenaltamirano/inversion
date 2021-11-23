@@ -1,6 +1,6 @@
 <?php
 
-class usuarios_model extends CI_Model{
+class Usuarios_model extends CI_Model{
 
     function verificar($usuario="",$password=""){
         $this->db->select("usuario_id");
@@ -26,7 +26,7 @@ class usuarios_model extends CI_Model{
     }
 
 
-    function nueva($usuario="",$password="",){
+    function nueva($usuario="",$password=""){
             $this->db->set("usuario",$usuario);
             $this->db->set("password",$password);
             $this->db->insert("usuarios");
